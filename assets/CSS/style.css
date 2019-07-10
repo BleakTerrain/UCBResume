@@ -7,7 +7,7 @@ header
 
 .logo
 {
-    background: url(..Images/rosietestimage.jpg);
+    background: url(/assets/Images/rosietestimage.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
