@@ -3,9 +3,14 @@
 .bg-color-name-title
 {
  background-color: #676767;  
+ 
  font-family: "Montserrat", sans-serif;
  font-weight:100;
 
+}
+.bg-color-three-reasons
+{
+    background-color:#fff;
 }
 .ui-menu-color-home
 {
@@ -23,6 +28,46 @@
 {
     background-color:#525252;
 }
+
+/*---------------------------------Special Paddings/margins and text--*/
+h1, h2, h3, h4 {margin:0;}
+.uppercase
+{
+    text-transform:uppercase;
+}
+
+.general-sub
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight:300;
+    color: #fafafa;
+}
+
+.inline-block
+{
+    display:inline-block;
+}
+
+.row-table
+{
+    display:table;
+}
+
+.section-column 
+{
+    display:table-cell;
+    padding:0 30px 30px;
+    float: none;
+}
+
+.section-heading 
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight:300;
+    margin-top: 25px;
+    margin-bottom:40px;
+}
+
 /*---------------------------------HEADINGS----------*/
 header
 {
@@ -58,7 +103,7 @@ header
     color:#ECFEFE;
     font-size:28px;
     margin-top:20px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 
 /*-----------------------------NAV-------*/
@@ -72,10 +117,122 @@ header
 {
     font-size:0;
 }
+
+
 #nav li
 {
     font-size: 16px;
     padding: 0;
+    color: white;
+    
+}
+#nav 
+{
+    margin: 0;
 }
 
+.menuitem
+{
+height: 115px;
+  text-align: center;
+  padding:0;
+}
 
+.menuitem a 
+{
+    width: 100%;
+    height:115px;
+   text-decoration: none;
+   color: white;
+}
+
+.menuitem a i
+{
+    padding-top: 22px;
+    display:block;
+    color:#fafafa;
+    font-size: 26px;
+}
+
+.menuitem span
+{
+    display:block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/*-------------------------------Hover.CSS ----*/
+.hvr-overline-reveal:before
+{
+    background-color: #fafafa;
+    
+}
+
+/*-------------------------------Footer ----*/
+
+footer
+{
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+}
+
+.cv-pdf i
+{
+    color:#fafafa;
+    font-size: 18px;
+    text-align:center;
+    padding-left:5px;
+}
+
+.hvr-float-shadow i:hover
+{
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+     -o-transition: all 0.35s ease-in-out;
+    color:#e67e22;
+}
+
+.list-inline-item a i
+{
+    color:#fafafa;
+
+}
+
+.social-links
+{
+    padding-bottom: 15px;
+}
+
+.social-links li a i 
+{
+    width:32px;
+    height:32px;
+    padding:12px 0;
+    border-radius:50%;
+    font-size: 18px;
+    line-height: 7px; 
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover 
+{
+    background: #e84610;
+}
+
+#footer-details
+{
+    padding:20px;
+}
